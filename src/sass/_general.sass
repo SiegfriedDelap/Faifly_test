@@ -49,19 +49,7 @@ header
         color: #ffffff
         text-align: center
     &_btn
-        padding: 15 15
-        display: block
-        margin: 0 auto
-        margin-top: 50px
-        width: 120px
-        height: 40px
-        font-family: 'Hammersmith One'
-        font-size: 14px
-        line-height: 1.2
-        font-weight: 400
-        color: #00e0d0
-        border: 1px solid #00e0d0
-        border-radius: 0px
+        @include buttonBlue
     &_dots
         display: block
         margin: 0 auto
@@ -80,9 +68,59 @@ header
             border: 1px solid #fff
         .dot-color-active
             background-color: #00e0d0
+
+.story
+    min-height: 405px
+    padding: 70px 0 70px 0       
+    
+    &_image
+        display: block
+        margin: 0 auto
+
+    &_title
+        font-family: 'Playfair Display'
+        font-size: 22px
+        line-height: 1.2
+        font-weight: 700
+        letter-spacing: 0.05em
+        color: #413d4b
+    &_descr
+        margin-top: 28px
+        opacity: 0.74
+        font-family: 'Roboto'
+        font-size: 14px
+        line-height: 22px
+        font-weight: 300
+        letter-spacing: 0.03em
+        color: #413d4b
+    &_btn
+        @include buttonBlue
+        margin-top: 31px
+        margin-left: 0px
+
+.video
+    min-height: 550px
+    padding: 202px 0 202px 0
+    background: url('../img/bg_thirdSection.png') center (center / cover) no-repeat
+
+    &_centred
+        margin: 0 auto
         
-        
-     
+    &_play
+        margin: 0 auto
+        width: 100px
+        height: 100px
+    &_descr
+        display: block
+        margin: 0 auto
+        text-align: center
+        margin-top: 24px
+        font-family: 'Roboto', sans-serif
+        font-size: 16px
+        line-height: 1.2
+        font-weight: 900
+        letter-spacing: 0.05em
+        color: #ffffff
 
 
 
