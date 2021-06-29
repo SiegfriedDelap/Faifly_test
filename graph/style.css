@@ -1,0 +1,7 @@
+.barContainer{
+	position:absolute;
+	border-left:2px solid black;
+	border-bottom:2px solid black;
+	margin-left: 30%;
+	margin-top: 10%
+}
